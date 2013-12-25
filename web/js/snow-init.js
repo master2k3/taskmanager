@@ -1,0 +1,13 @@
+imageDir = "http://mvcreative.ru/example/6/2/snow/"; 
+sflakesMax = 50; 
+sflakesMaxActive = 50; 
+svMaxX = 2; 
+svMaxY = 4; 
+ssnowStick = 1; 
+ssnowCollect = 0; 
+sfollowMouse = 1; 
+sflakeBottom = 0; 
+susePNG = 1; 
+sflakeTypes = 5; 
+sflakeWidth = 15; 
+sflakeHeight = 15; 

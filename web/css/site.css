@@ -1,0 +1,63 @@
+body {
+	padding-top: 70px;
+}
+
+.footer {
+	border-top: 1px solid #ddd;
+	margin-top: 30px;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: transparent;
+}
+
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+}
+
+.not-set {
+	color: #c55;
+	font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after  { content: /*"\e113"*/"\e151"; }
+a.desc:after { content: /*"\e114"*/"\e152"; }
+
+.sort-numerical a.asc:after { content: "\e153"; }
+.sort-numerical a.desc:after { content: "\e154"; }
+
+.sort-ordinal a.asc:after { content: "\e155"; }
+.sort-ordinal a.desc:after { content: "\e156"; }
+
+a.icon {    
+  font-family: 'Glyphicons Halflings';
+  margin:0 5px;
+  text-decoration: none;
+}
+
+a.icon.big {
+  font-size:200%;
+}
+
+a.icon-trash:after  { content: "\E020"; }
+a.icon-edit:after  { content: "\E065"; }
+a.icon-create:after  { content: "\E081"; }
+a.icon-back:after  { content: "\E075"; }
+
+a.btn.gray {background-color: #428bca;border-color: #428bca;color:white;}
